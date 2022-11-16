@@ -25,6 +25,7 @@ public class Main {
                 DataOutputStream output = new DataOutputStream(s.getOutputStream());
                 output.writeBytes(line+"\n");
                 System.out.println("You sent string " + line);
+                s.close();
             }
 
 
