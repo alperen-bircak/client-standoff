@@ -10,23 +10,19 @@ import static java.net.InetAddress.getLocalHost;
 
 public class Main {
     static int port = 8080;
-    static String hostname = "localhost";
+    static String hostname = "192.168.1.58";
 
     public static void main(String[] args) {
         try {
-            InetAddress localhost = getLocalHost();
-            System.out.println(localhost.getHostAddress());
 
-            Socket s = new Socket(hostname, port);
 
-            System.out.println("connected");
-
-            Scanner in = new Scanner(System.in);
-
-            DataOutputStream output = new DataOutputStream(s.getOutputStream());
 
             while(true) {
+                Scanner in = new Scanner(System.in);
                 String line = in.nextLine();
+
+                Socket s = new Socket(hostname, port);
+                DataOutputStream output = new DataOutputStream(s.getOutputStream());
                 output.writeBytes(line+"\n");
                 System.out.println("You sent string " + line);
             }
