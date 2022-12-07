@@ -9,7 +9,7 @@ import static java.net.InetAddress.getLocalHost;
 
 public class Main {
     static int port = 8080;
-    static String hostname = "localhost";
+    static String hostname = "18.204.213.255";
 
     static String test = """
             3#
