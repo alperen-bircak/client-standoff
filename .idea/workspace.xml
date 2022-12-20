@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0aff7f96-e8b2-462a-b303-bf1a3d5b68f6" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -50,7 +51,12 @@
       <workItem from="1668694165265" duration="770000" />
       <workItem from="1670260863732" duration="426000" />
       <workItem from="1670349461776" duration="3257000" />
-      <workItem from="1670422756002" duration="10427000" />
+      <workItem from="1670422756002" duration="11292000" />
+      <workItem from="1670494220120" duration="2223000" />
+      <workItem from="1670677206206" duration="726000" />
+      <workItem from="1670837161973" duration="2587000" />
+      <workItem from="1671458098757" duration="1155000" />
+      <workItem from="1671550435032" duration="5766000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1668606940631</created>
@@ -87,7 +93,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670440335827</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="chnage host ip to EC2">
+      <created>1670440528016</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670440528016</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -99,6 +112,7 @@
     <MESSAGE value="new conenction for each message" />
     <MESSAGE value="close socket after each message" />
     <MESSAGE value="NBR request test" />
-    <option name="LAST_COMMIT_MESSAGE" value="NBR request test" />
+    <MESSAGE value="chnage host ip to EC2" />
+    <option name="LAST_COMMIT_MESSAGE" value="chnage host ip to EC2" />
   </component>
 </project>
